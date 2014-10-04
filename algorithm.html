@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bubble Sort Visualized</title>
+    <link rel="stylesheet" href="algorithmstyle.css" />
+  </head>
+  <body>
+		<section class="header">
+		<h1 id="title">Bubble Sort Explained</h1>
+		</section>
+		<section class="what">
+			<h1 id="smalltitle">What is Bubble Sort?</h1>
+			<img id="man" src="http://www.iisonline.com/Portals/0/PageGraphics/BubbleMan_Searching.jpg" />
+			<p><strong>Bubble sort</strong>, sometimes referred to as <strong>sinking sort</strong>, is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted, comparing each pair of adjacent items and swapping them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.<em> via <a href="http://en.wikipedia.org/wiki/Bubble_sort" target="_blank">Wikipedia</a></em></p>
+		</section>
+		<section class="resources">
+			<h1 id="smalltitle">Additional Resources</h1>
+			<ul id="links">
+				<li class="linksli"><a href="https://www.youtube.com/watch?v=8Kp-8OGwphY" target="_blank">Bubble Sort - cs50</a></li>
+				<li class="linksli"><a href="https://www.youtube.com/watch?v=kgBjXUE_Nwc" target="_blank">Getting Sorted - Computerphile</a></li>
+				<li class="linksli"><a href="http://java.dzone.com/articles/algorithm-week-bubble-sort" target="_blank">Algorithm of the Week: Bubble Sort</a></li>
+		</section>
+		<section id="input">
+			<h1 id="smalltitle">Try It Out Yourself!</h1>
+		  <h5>Enter a number of values for the list:</h5>
+  	  <form id="number">
+  		  <input type="number" min="1" max="20" step="1" id="userInput" name="listLength" placeholder="Enter Here!"></input>
+  	  </form>
+	  </section>
+	  <section class="what" id="list">  
+	    <ul id="submitList">
+			</ul>
+		</section>
+		<section class="what" id"=bubbleSortUI">
+			<div class="button">Start Sorting</div>
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="algorithm.js"></script>
+	</body>
+</html>
