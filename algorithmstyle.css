@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-image: url("http://media.tumblr.com/3883558c9223900a9a36af4a8ced336d/tumblr_inline_mr6k4aJ79A1qz4rgp.jpg");
+}
+
+.header {
+	height: 10em;
+	padding: 0em;
+	top: 0em;
+	width: 100%;
+	margin: 0em;
+	background-color: #0000CC;
+	border-radius: 8px;
+	border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#input {
+	margin-top: 2em;
+	display:block;
+}
+
+#title {
+	color: white;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+	font-size: 6em;
+	margin: 0em;
+	padding: .2em;}
+
+#smalltitle {
+	font-size: 3em;
+	font-style: Times;
+	border-top: 2px solid gray;
+	padding-top: .5em;
+	width: 100%;
+	color: blue;
+}
+
+h5 {
+	margin-top: 1em;
+	color: #000000;
+	font-family: 'Nunito', sans-serif;
+	font-size:1em;
+}
+
+#submitList {
+  position: relative;
+  float: left;
+  left: 50%;
+  padding: 0em;
+  list-style: none; }
+
+
+
+.newLI {
+	display: inline-block;
+	border: .0625em solid black;
+	height: 2ex;
+	width: 2ex;
+	text-align: center;
+	font-family: Ariel;
+	font-size: 1.5em;
+	color: #000000;
+	background: -webkit-radial-gradient(white, gray);
+	border-radius: .3em;
+	padding: .3em .3em .4em .3em;
+  	position: relative;
+  	float: left;
+  	right: 50%;
+  	margin: 0 5px;}
+
+.newLIselected {
+	border: .1em solid red;
+}
+
+.button {	
+  	height: .5em;
+	width: 12em;
+	background-color: #0000CC;
+	font-family: 'Nunito', sans-serif;
+	font-weight:bold;
+	color:#fff;
+	border-radius: 2em;
+	text-align:center;
+	margin-top:.125em;
+	border: 1px solid black;
+	padding: .7em .7em 1.2em .7em;
+	cursor: pointer; cursor: hand;
+	position:relative;
+	left: 41.6%;
+	top:80em;
+	position:absolute;
+	margin-bottom: 10em;
+	-webkit-box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+	transition-duration: .2s;
+	}
+
+.button:hover{
+	background: #3333D6;
+    border: solid 1px #2A4E77;
+    text-decoration: none;
+}
+
+.button:active {
+    -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.6);
+    background: #3333D6;
+    border: solid 1px #203E5F;
+}
+
+
+.resources {
+	margin-top: 2em;
+}
+
+
+#man {
+	height: 10em;
+	width: 10em;
+	display: inline;
+	float:left;
+	border: 1px solid gray;
+	margin-right: 1em;}
+
+.what {
+}
+
+p {
+	width: 80%;
+	font-size: 1.3em;
+	padding-bottom: 3em;
+}
+
+form {
+	margin-bottom: 3em;
+}
+
+#links {
+	list-style-type: none;
+}
+
+.linksli {
+	padding: .7em;
+	font-size: 1.3em;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: green;
+}
+
+a:hover {
+	color: #FF00FF;}
+
+#list {
+	height:10em;
+	width:100%;
+}
